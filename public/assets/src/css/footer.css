@@ -1,0 +1,282 @@
+/* ========== */
+/* = PC FOOTER = */
+/* ========== */
+.footer {
+	background: #0b0c0c;
+}
+
+.footer-in {
+	padding: 0 3.5%;
+	line-height: 36px;
+	font-size: 13px;
+	color: #fff;
+	text-align: right;
+}
+
+.footer-in {
+	padding: 0 3.5%;
+	line-height: 36px;
+	font-size: 13px;
+	color: #fff;
+	text-align: right;
+}
+
+.footer-in .p1 {
+	float: left;
+	font-size: 13px;
+}
+
+.footer-in .p1 span,
+.footer-in .p1 i { opacity: .15; font-style: normal;}
+
+.footer-in .p1 .copyright { 
+	margin-right: 20px;
+}
+
+.footer-in .p1 .icp { margin: 0 20px;}
+
+.footer-in .p1 a { color: #fff; opacity: .15;}
+
+.footer .p1 a:hover { opacity: 1;}
+
+.footer-nav {
+	display: inline-block;
+}
+
+.footer-nav a {
+	position: relative;
+	display: inline-block;
+	padding: 0 40px;
+	height: 36px;
+	color: #fff;
+}
+
+.footer-nav a span { opacity: .15;}
+
+.footer-nav a::after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 1px;
+	height: 100%;
+	background: #fff;
+	opacity: .05;
+}
+
+.footer-nav a:hover span { opacity: 1;}
+
+/*.footer .copyrigh {
+	padding-left: 85px;
+	padding-right: 20px;
+	opacity: .15;
+}*/
+
+.footer-in .tel {
+	position: relative;
+	padding: 0 30px 0 35px;
+	margin-right: 25px;
+	font-size: 14px;
+	color: #bc3238;
+	font-family: "PingFang-Medium";
+}
+
+.footer-in .tel::before {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -5px;
+	width: 1px;
+	height: 11px;
+	background: #fff;
+	opacity: .15;
+}
+
+
+.wx-out:hover .wx-slide { display: block;}
+
+.wx-out {
+	position: relative;
+	float: right;
+	cursor: pointer;
+}
+
+.wx-out .wx-ico {
+	display: block;
+	height: 36px;
+	width: 17px;
+	background: url(../../images/foot_wx_ico.png) no-repeat center;
+}
+
+.wx-out .wx-slide {
+	display: none;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	z-index: 9999;
+	padding-bottom: 60px;
+	margin-left: -50px;
+	width: 100px;
+}
+
+.wx-out .wx-slide-in {
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #fff;
+	-webkit-box-shadow: 1px 1px 20px rgba(48,103,160,.2);
+	-moz-box-shadow: 1px 1px 20px rgba(48,103,160,.2);
+	box-shadow: 1px 1px 20px rgba(48,103,160,.2);
+}
+
+.wx-out .wx-slide-in::before {
+	position: absolute;
+	content: '';
+	left: 50%;
+	bottom: 41px;
+	width: 0;
+	margin-left: -10px;
+	border-width: 10px;
+	border-style: solid;
+	border-color: #fff transparent transparent transparent;
+}
+
+
+.frlink {
+	overflow: hidden;
+	padding: 5px 3.5% 0;
+	line-height: 30px;
+	color: #fff;
+	font-size: 13px;
+	border-top: 1px solid #171818;
+}
+
+.frlink>span {
+	float: left;
+	display: inline-block;
+	width: 75px;
+	opacity: .15;
+}
+
+.frlink>div {
+	margin-left: 75px;
+}
+
+.frlink a {
+	margin: 0 7px;
+	color: #fff;
+	opacity: .15;
+}
+
+@media (max-width:1440px){
+	
+	.footer-nav a { padding: 0 10px;}
+	.footer-in .tel { padding: 0 10px; margin-right: 10px;}
+	
+	.footer-in .p1 .copyright { margin-right: 10px;}
+	.footer-in .p1 .icp { margin: 0 10px;}
+}
+
+@media (max-width:1060px){
+	.footer-nav a { padding: 0 5px;}
+}
+
+
+
+.home-footer {
+	/*position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 500;*/
+	width: 100%;
+	background: rgba(255,255,255,.03);
+}
+
+.inner-footer {
+	background: #131313;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== */
+/* = MOBILE FOOTER = */
+/* ========== */
+.mb-foot {
+	padding: 0.666666rem 0.4rem;
+	color: #979393;
+	line-height: 1.5;
+	font-size: 0.266666rem;
+	background: #000;
+}
+
+.mb-foot-nav { margin: 0.2rem 0;}
+
+.mb-foot-nav a {
+	position: relative;
+	padding: 0 0.4rem;
+	color: #fff;
+	font-size: 0.266666rem;
+	opacity: .4;
+}
+
+.mb-foot-nav a::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 0;
+	z-index: 2;
+	margin-top: -0.12rem;
+	width: 1px;
+	height: 0.24rem;
+	background: #fff;
+}
+
+.mb-foot-nav a:first-child { padding-left: 0;}
+.mb-foot-nav a:first-child::before { display: none;}
+
+
+/* ========== */
+/* = BACKTOP = */
+/* ========== */
+.back-top {
+	position: fixed;
+	right: 0.4rem;
+	bottom: 2%;
+	z-index: 200;
+	display: none;
+	width: 1.28rem;
+	height: 1.28rem;
+}
+
+@media (max-width:999px){
+	.back-top { display: block;}
+}
+
+
+
+
+
+
+
